@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdecrypt.a  CMakeFiles/decrypt.dir/lib/decrypt.c.o
+/usr/bin/ranlib libdecrypt.a

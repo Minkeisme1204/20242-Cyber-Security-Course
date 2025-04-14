@@ -1,0 +1,2 @@
+/usr/bin/ar qc libencrypt.a  CMakeFiles/encrypt.dir/lib/encrypt.c.o
+/usr/bin/ranlib libencrypt.a

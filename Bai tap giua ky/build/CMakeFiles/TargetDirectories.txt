@@ -1,0 +1,8 @@
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/rebuild_cache.dir
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/edit_cache.dir
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/test.dir
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/main.dir
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/utils.dir
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/decrypt.dir
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/encrypt.dir
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/build/CMakeFiles/AES.dir

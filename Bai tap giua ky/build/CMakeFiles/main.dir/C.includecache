@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/AES.h
+Sbox.h
+../include/Sbox.h
+Rcon.h
+../include/Rcon.h
+
+../include/Rcon.h
+stdint.h
+-
+
+../include/Sbox.h
+stdint.h
+-
+
+../include/decrypt.h
+AES.h
+../include/AES.h
+
+../include/encrypt.h
+AES.h
+../include/AES.h
+
+../include/utils.h
+stdint.h
+-
+string.h
+-
+
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/src/main.c
+encrypt.h
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/src/encrypt.h
+decrypt.h
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/src/decrypt.h
+utils.h
+/home/minkescanor/Desktop/Study/Cyber Security/20242-Cyber-Security-Course/Bai tap giua ky/src/utils.h
+stdio.h
+-
+
