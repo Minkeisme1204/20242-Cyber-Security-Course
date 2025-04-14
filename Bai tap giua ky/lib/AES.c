@@ -60,7 +60,6 @@ void aes_key_expansion(const uint8_t *key, uint8_t *roundKeys) {
     }
 }
 
-
 static void sub_bytes(uint8_t *state) {
     for(int i = 0; i < 16; i++) {
         state[i] = sbox[state[i]];
@@ -98,16 +97,16 @@ static void shift_rows(uint8_t *state) {
 
 static void mix_columns(uint8_t *state) {
     for(int i = 0; i < 4; i++) {
-        int c = 4 * i;
-        uint8_t a0 = state[c + 0];
-        uint8_t a1 = state[c + 1];
-        uint8_t a2 = state[c + 2];
-        uint8_t a3 = state[c + 3];
+        int col = 4 * i;
+        uint8_t a0 = state[col + 0];
+        uint8_t a1 = state[col + 1];
+        uint8_t a2 = state[col + 2];
+        uint8_t a3 = state[col + 3];
 
-        state[c + 0] = multiply(0x02, a0) ^ multiply(0x03, a1) ^ a2 ^ a3;
-        state[c + 1] = a0 ^ multiply(0x02, a1) ^ multiply(0x03, a2) ^ a3;
-        state[c + 2] = a0 ^ a1 ^ multiply(0x02, a2) ^ multiply(0x03, a3);
-        state[c + 3] = multiply(0x03, a0) ^ a1 ^ a2 ^ multiply(0x02, a3);
+        state[col + 0] = multiply(0x02, a0) ^ multiply(0x03, a1) ^ a2 ^ a3;
+        state[col + 1] = a0 ^ multiply(0x02, a1) ^ multiply(0x03, a2) ^ a3;
+        state[col + 2] = a0 ^ a1 ^ multiply(0x02, a2) ^ multiply(0x03, a3);
+        state[col + 3] = multiply(0x03, a0) ^ a1 ^ a2 ^ multiply(0x02, a3);
     }
 }
 
